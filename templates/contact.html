@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/contact.css">
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/css/mediaqueries.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 640px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 641px) and (max-width: 1280px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1281px)">
+    <link rel="icon" href="../static/img/logo.png" />
+
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ea7402f69.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap" rel="stylesheet">
+    
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div id="logo">
+                <img src="../static/img/logo.png" width="40px">
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="../templates/mindfulness.html" target="_blank">Mindfulness</a>
+                </li>
+                <li>
+                    <a href="./contact.html" target="_blank">Contacto</a>
+                </li>
+                <li>
+                    <a href="../templates/about.html" target="_blank">Sobre mí</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="contactTitle">
+            <h2>Registro para consultas</h2>
+        </div>
+        <section class="form-wrapper">
+            <div class="form-background">
+                <form action="https://formspree.io/f/xpwayply" method="POST">
+                    <label for="name">Dejame tu nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">Dejame tu e-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+                    <br>
+                    <label for="message">Preguntame lo que desees. Te responderé a la brevedad:</label>
+                    <textarea id="message" name="message" placeholder="Escribe tus consulta" required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div>
+            <p>
+                <a style="color: white;  font-size: 2rem;" ; target="_blank; "width:5px"; fa-text-height: 5px" ; class="fa-brands fa-square-whatsapp" ;
+                    href="https://wa.me/5491131317947"> </a>
+            </p>
+        </div>
+        <br>
+        <div>
+            <p> Copyright © Todos los derechos reservados 2024</p>
+            <p>Hecho con <i style="color:red" class="fa fa-heart" aria-hidden="true"></i> por Isa Mesina de
+                <a style="color: white" ; target="_blank" ; " href=" https://www.instagram.com/isadisenioweb/">"Isa
+                    Diseño Web"</a>
+            </p>
+        </div>
+
+    </footer>
+    <script src="../static/js/contact.js"></script>
+    <script src="../static/js/contact-fetch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

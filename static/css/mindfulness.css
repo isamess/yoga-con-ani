@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
+    background-size:100%;
+
+}
+.title {
+    display: grid;
+    color:rgb(241, 239, 242);
+   text-align: center;
+   font-size:x-large;
+   font-weight: bold;
+-webkit-text-stroke: 1px rgb(63, 61, 63);
+}
+.citas {
+    color:blue;
+    font-size: 18px;
+    text-align: end;
+    padding-right: 15px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.description-container {
+    padding: 30px;
+    margin-top:10px;
+    margin-left: 85px;
+    margin-right: 85px;
+    background-color: rgba(211, 199, 211, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.description-container p{
+    font-family: Poppins;
+    font-size: 13px;
+    color:rgb(33, 35, 36);
+    text-align: justify;
+    
+    
+}
+.description-container h2{
+    color:rgb(33, 35, 36);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.grid-audio-container {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5em;
+    grid-auto-rows: minmax(100px, auto);
+    align-items:baseline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.grid-audio-item {
+   
+    padding: 20px;
+    margin: 10px;
+    border-color: rgb(18, 19, 19);
+    font-size: 0.7em;
+    text-align:justify;
+    border-radius: 8px;
+    font-family: "Poppins" ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+    color:rgb(8, 9, 10);
+    font-weight: bold ;
+    background-color: rgba(211, 199, 211, 0.5);
+    height: 330px;
+    width:245 ;
+
+}
+#audio-container {
+    width: 100%;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+#audio-container audio {
+    width: 100%;
+}
+
+.fuentes {
+    font-size: 5px;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
