@@ -209,6 +209,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 } */
 
+
 /* @media queries */
 /* CELULARES */
 @media screen and (max-width: 100%) {
@@ -221,38 +222,56 @@ h2 {
     .nav{
         grid-template-columns: repeat(1,1fr);
     }
-	#slideshow {
-		grid-template-columns: repeat(1,1fr);
-	}
-}
-
-/* TABLETS */
-@media screen and (min-width: 801px) and (max-width: 1023px) {
-    .main{
-        grid-template-columns: repeat(2,1fr);
+    .body{
+        grid-template-columns: repeat(1,1fr);
     }
 }
+@media (max-width: 767px) {
+    /* Estilos para pantallas de hasta 767px */
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+}
+/* TABLETS */
+@media screen and (min-width: 641px) and (max-width: 1280px) {
+    .main{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .body{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para pantallas entre 768px y 1023px */
+    .container {
+      width: 75%;
+      margin: 0 auto;
+    }
+    /* Otros estilos específicos para tablets */
+  }
+
+  @media (min-width: 768px) and (orientation: landscape) {
+    /* Estilos para tablets en modo horizontal */
+  }
 
 /* PANTALLAS GRANDES */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1281px) {
     .main{
-        grid-template-columns: repeat(9,1fr);
+        grid-template-columns: repeat(5,1fr);
+    }
+    .body{
+        grid-template-columns: repeat(5,1fr);
     }
 }
-
-@media screen and (max-width: 800px) {
-    #slideshow{
-		grid-template-columns: repeat(1,1fr);
+@media (min-width: 1024px) {
+    /* Estilos para pantallas de 1024px en adelante */
+    .container {
+      width: 960px;
+      margin: 0 auto;
     }
-}
-@media screen and (min-width: 801px) and (max-width: 1023px) {
-    #slideshow{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    #slideshow{
-        grid-template-columns: repeat(9,1fr);
-    }
-}
+    /* Otros estilos específicos para escritorio */
+  }
