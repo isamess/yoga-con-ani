@@ -27,6 +27,9 @@ body {
     background-size:100%;
 
 }
+main {
+    width: 100%;
+}
 .title {
     display: grid;
     color:rgb(241, 239, 242);
