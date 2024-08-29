@@ -23,7 +23,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1em;
     grid-auto-rows: minmax(100px, auto);
-    align-items:stretch;
+    align-content: center;
 
 }
 

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
+    background-size:100%;
+
+}
+.title {
+    display: grid;
+    color:rgb(241, 239, 242);
+   text-align: center;
+   font-size:x-large;
+   font-weight: bold;
+-webkit-text-stroke: 1px rgb(63, 61, 63);
+}
+.about-container {
+    width: 90%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50%, auto);
+    align-content:center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+.image{
+    width:300px; 
+    height:auto; 
+    border-radius: 15px; 
+    border-color: blueviolet; 
+    border-width: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    margin-left: 50px;
+    
+}
+.description {
+    width: 95%;
+    background-color: rgba(211, 199, 211, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    margin-right: 10px;
+    box-sizing: content-box;
+    font-size: 12px;
+}
+.description p{
+    font-family: Poppins;
+    font-size: 13px;
+    color:rgb(33, 35, 36);
+    text-align: justify;
+    
+    
+}

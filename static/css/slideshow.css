@@ -211,7 +211,7 @@ h2 {
 
 /* @media queries */
 /* CELULARES */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 100%) {
     .logo{
         display: none;
     }
@@ -221,6 +221,9 @@ h2 {
     .nav{
         grid-template-columns: repeat(1,1fr);
     }
+	#slideshow {
+		grid-template-columns: repeat(1,1fr);
+	}
 }
 
 /* TABLETS */
