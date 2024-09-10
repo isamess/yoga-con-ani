@@ -227,7 +227,7 @@ a{
 @media (max-width: 767px) {
     /* Estilos para pantallas de hasta 767px */
     body {
-      font-size: 14px;
+      font-size: 10px;
     }
     .container {
       width: 90%;
