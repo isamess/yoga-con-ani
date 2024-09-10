@@ -121,7 +121,7 @@ a{
     width: 100%;
 }
 
-.main{
+main{
     background-image:url(../img/yoga-wallpaper.jpg);
     background-size:cover;
     margin-left: 0px;
@@ -130,7 +130,7 @@ a{
     min-height:100vh;
     width:100%;
 }
-.main a{
+main a{
     text-decoration: none;
     font-weight: bold;
 }
@@ -174,7 +174,7 @@ a{
   .image-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual ancho */
-    grid-gap: 10px; /* Espacio entre imágenes */
+    gap: 10px; /* Espacio entre imágenes */
     grid-auto-rows: minmax(100px, auto);
     margin-top:15px;
     margin-left: 15px;

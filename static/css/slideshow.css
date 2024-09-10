@@ -20,12 +20,6 @@
     font-style: normal;
 }
 
-/* .section {
-	max-width: 100%;
-	overflow-x: hidden;
-	overflow-y: hidden;
-	background-color: #d6c9f8;
-} */
 
 #slideshow {
 	margin: 0 auto;
@@ -182,34 +176,6 @@ h2 {
 	font-size: 10px;;
 }
 
-/* .infoSlideContainer{
-    margin-bottom: 60px;
-    margin-top:0px;
-	padding-left: 150px;
-	padding-right: 150px;
-    padding-top: 0;
-    background-color:#d6c9f8;
-	max-width: 100%;
-	
-} */
-/* .gridInfo-container {
-    display: grid;
-    grid-template-columns:   repeat( auto fill, 40vw) ;
-    grid-template-rows: auto auto;
-    grid-gap: 30px;
-	margin:30px;
-	font-family: "Poppins";
-
-
-}
-
-.gridInfo-item {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 14px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
 
 
 /* @media queries */
@@ -225,7 +191,7 @@ h2 {
 @media (max-width: 767px) {
     /* Estilos para pantallas de hasta 767px */
     body {
-      font-size: 14px;
+      font-size: 12px;
     }
     .entire-content-container {
       width: 90%;
@@ -238,9 +204,17 @@ h2 {
         overflow: hidden;
         position: absolute;
     }
+    #slideshow {
+        margin: 0 auto;
+        padding-top: 10px;
+        height: 300px;
+        width: 70%;
+        background-color:#d6c9f8;
+        box-sizing: border-box;
+    }
 }
 /* CELULARES */
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
     .logo{
         display: none;
     }
@@ -253,7 +227,7 @@ h2 {
     .body{
         grid-template-columns: repeat(1,1fr);
     }
-}
+} */
 
 /* TABLETS */
 @media screen and (min-width: 641px) and (max-width: 1280px) {
