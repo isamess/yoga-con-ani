@@ -101,7 +101,46 @@ a{
     color: #7a037a;
     text-decoration-color: none;
 }
-.menu-button {
+
+ /* Dropdown */
+ .dropdown {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    margin-right: 100px;
+    justify-content: center;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    min-width: 50px;
+    overflow: auto;
+    background-color: rgba(91, 32, 133, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(241, 232, 232, 0.2);
+    padding: 10px 0px 10px 0px;
+    z-index: 1; 
+  }
+
+  .dropdown-content a {
+    display: block;
+    color:rgb(241, 227, 246);
+    text-decoration: none;
+    margin: 15px;
+    font-family: "Poppins";
+
+  }
+
+  .dropdown-content a:hover {
+    color:  #6b09c1;
+    background-color:rgb(241, 227, 246);
+  }
+  .menu-button {
     background-color: rgb(191, 238, 210);
     color: #7a037a;
     font-family: "Poppins";
@@ -113,45 +152,9 @@ a{
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 5px;
+    width: 150px;
     box-shadow: 0px 15px 18px 0px rgba(33, 30, 30, 0.2);
 }
- /* Dropdown */
- .dropdown {
-    display: inline-block;
-    position: relative;
-    padding: 30px;
-    margin-right: 100px;
-    justify-content: center;
-  }
-  .dropdown:hover .dropdown-content{
-    display: block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    text-align: center;
-    /* z-index: 1; */
-    width: 80%;
-    min-width: 50px;
-    overflow: auto;
-    background-color: rgba(91, 32, 133, 0.5);
-    border-radius: 5px;
-    box-shadow: 0px 8px 16px 0px rgba(241, 232, 232, 0.2);
-    padding: 2px 2px;
-  }
-
-  .dropdown-content a {
-    display: block;
-    color:rgb(241, 227, 246);
-    text-decoration: none;
-  }
-
-  .dropdown-content a:hover {
-    color:  #6b09c1;
-    background-color:rgb(241, 227, 246);
-  }
-
 .img{
     width: 100%;
 }
