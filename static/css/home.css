@@ -38,12 +38,12 @@ header{
 }
 
 #logo{
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 10px;
     animation: bounce 1s ease-in-out;
     animation-duration: 3s;
     transition: transform 0.3 ease-in-out;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 #logo:hover,
 #logo:focus{
@@ -51,20 +51,7 @@ header{
 
 }
 
-    /* {animation: tilt-n-move-shaking 0.25s infinite; */
-    /* animation: bounce;
-    animation-duration: 3s infinite ; */
-    /* transform: scale(1.1)
-    rotate(5deg) }*/
 
-/* @keyframes tilt-n-move-shaking {
-    0% { transform: translate(0, 0) rotate(0deg); }
-    25% { transform: translate(5px, 5px) rotate(5deg); }
-    50% { transform: translate(0, 0) rotate(0eg); }
-    75% { transform: translate(-5px, 5px) rotate(-5deg); }
-    100% { transform: translate(0, 0) rotate(0deg); }
-} */
- 
 @keyframes bounce {
     0% {
       transform: translateY(0);
@@ -77,8 +64,6 @@ header{
     }
   }
 .nav{
-    padding: 3px;
-    padding: 10px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -116,6 +101,56 @@ a{
     color: #7a037a;
     text-decoration-color: none;
 }
+.menu-button {
+    background-color: rgb(191, 238, 210);
+    color: #7a037a;
+    font-family: "Poppins";
+    font-size: larger;
+    font-weight: bold;
+    font-stretch:ultra-expanded;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 18px 0px rgba(33, 30, 30, 0.2);
+}
+ /* Dropdown */
+ .dropdown {
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    margin-right: 100px;
+    justify-content: center;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    /* z-index: 1; */
+    width: 80%;
+    min-width: 50px;
+    overflow: auto;
+    background-color: rgba(91, 32, 133, 0.5);
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(241, 232, 232, 0.2);
+    padding: 2px 2px;
+  }
+
+  .dropdown-content a {
+    display: block;
+    color:rgb(241, 227, 246);
+    text-decoration: none;
+  }
+
+  .dropdown-content a:hover {
+    color:  #6b09c1;
+    background-color:rgb(241, 227, 246);
+  }
 
 .img{
     width: 100%;
@@ -135,7 +170,6 @@ main a{
     font-weight: bold;
 }
 .titulo p{
-
     padding: 20px;
     margin-top: 25px;
     font-size:15px;
@@ -156,7 +190,7 @@ main a{
     text-align: center; 
     font-style: italic;
     font-size: 40px; 
-    color:rgb(242, 236, 247);
+    color:rgb(191, 238, 210);
     -webkit-text-stroke: 1px rgb(12, 11, 12);
 }
 

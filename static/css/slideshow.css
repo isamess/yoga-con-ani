@@ -104,9 +104,7 @@
 	transform: rotateY(280deg) translateZ(450px); 
 } .content-carrousel figure:nth-child(9) {
 	transform: rotateY(320deg) translateZ(450px); 
-} .content-carrousel figure:nth-child(10) {
-	transform: rotateY(360deg) translateZ(450px); 
-} 
+}
 
 .shadow {
     position: absolute;
@@ -165,11 +163,6 @@ h2 {
         -1px -1px 0 #f5eeee, 
         1px -1px 0 #ddd3d3, 
         -1px 1px 0 #f2e4e4;
-
-	/* text-shadow: 2px 2px 5px rgba(246, 242, 242, 0.5) ; */
-	/* -webkit-text-stroke: 0.1px rgb(247, 238, 247); */
-
-
 }
 .enlace {
 	font-weight:900;
@@ -193,17 +186,9 @@ h2 {
     body {
       font-size: 12px;
     }
-    .entire-content-container {
-      width: 90%;
-      margin: 0 auto;
-    }
-    .content-carrousel figure {
-        width: 70%;
-        height: 100px;
-        border: 1px solid #3b444b;
-        overflow: hidden;
-        position: absolute;
-    }
+   main {
+    width: 100%;
+   }
     #slideshow {
         margin: 0 auto;
         padding-top: 10px;
@@ -212,51 +197,16 @@ h2 {
         background-color:#d6c9f8;
         box-sizing: border-box;
     }
-}
-/* CELULARES */
-/* @media screen and (max-width: 300px) {
-    .logo{
-        display: none;
-    }
-    .main{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .nav{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .body{
-        grid-template-columns: repeat(1,1fr);
-    }
-} */
-
-/* TABLETS */
-@media screen and (min-width: 641px) and (max-width: 1280px) {
-    .main{
-        grid-template-columns: repeat(3,1fr);
-    }
-    .body{
-        grid-template-columns: repeat(3,1fr);
-    }
-}
-@media (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos para pantallas entre 768px y 1023px */
-    .container {
-      width: 75%;
+    .entire-content-container {
+      width: 90%;
       margin: 0 auto;
     }
-    /* Otros estilos específicos para tablets */
-  }
-
-  @media (min-width: 768px) and (orientation: landscape) {
-    /* Estilos para tablets en modo horizontal */
-  }
-
-
-@media (min-width: 1024px) {
-    /* Estilos para pantallas de 1024px en adelante */
-    .container {
-      width: 960px;
-      margin: 0 auto;
-    }
-    /* Otros estilos específicos para escritorio */
-  }
+     .content-carrousel figure {
+        width: 70%;
+        height: 100px;
+        border: 1px solid #3b444b;
+        overflow: hidden;
+        position: absolute;
+    } 
+    
+}
