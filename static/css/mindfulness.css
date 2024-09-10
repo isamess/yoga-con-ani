@@ -92,6 +92,7 @@ main {
     background-color: rgba(211, 199, 211, 0.5);
     height: 330px;
     width:245 ;
+    text-align: center;
 
 }
 #audio-container {
@@ -106,7 +107,7 @@ main {
 .fuentes {
     font-size: 5px;
     font-weight: 100;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Poppins
 }
 
 
@@ -129,11 +130,29 @@ main {
 @media (max-width: 767px) {
     /* Estilos para pantallas de hasta 767px */
     body {
-      font-size: 14px;
+      font-size: 10px;
     }
-    .container {
+    .description-container {
       width: 90%;
       margin: 0 auto;
+    }
+    .description-container p{
+        font-size: smaller;
+    }
+    .grid-audio-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .citas {
+        font-size: 12px;
+        text-align: end;
+        padding-right: 10px;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .title {
+        display: grid;
+       text-align: center;
+       font-size:large;
     }
 }
 /* TABLETS */

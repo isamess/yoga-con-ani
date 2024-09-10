@@ -28,11 +28,14 @@ body {
     background-size:100%;
 
 }
+nav {
+    width:100%;
+}
 .title {
     display: grid;
     color:rgb(241, 239, 242);
    text-align: center;
-   font-size:x-large;
+   font-size:large;
    font-weight: bold;
 -webkit-text-stroke: 1px rgb(63, 61, 63);
 }
@@ -63,16 +66,17 @@ body {
     background-color: rgba(211, 199, 211, 0.5);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-    padding: 30px;
+    padding: 18px;
     margin-right: 10px;
     box-sizing: content-box;
-    font-size: 12px;
+
 }
 .description p{
     font-family: Poppins;
     font-size: 13px;
     color:rgb(33, 35, 36);
     text-align: justify;
+    font-size: 0.7em;
     
     
 }
@@ -98,17 +102,32 @@ body {
     body {
       font-size: 14px;
     }
-    .container {
-      width: 90%;
-      margin: 0 auto;
+    .about-container {
+        width: 90%;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        font-size: 1em;
+
     }
+    .image {
+        width:150px;
+        margin-left: 20px;
+    }
+    .description {
+        width: 150px;
+    }
+    nav {
+        font-size: 0.8em;
+    }
+
 }
 /* TABLETS */
 @media screen and (min-width: 641px) and (max-width: 1280px) {
-    .main{
+    main{
         grid-template-columns: repeat(3,1fr);
     }
-    .body{
+    body{
         grid-template-columns: repeat(3,1fr);
     }
 }
@@ -127,10 +146,10 @@ body {
 
 /* PANTALLAS GRANDES */
 @media screen and (min-width: 1281px) {
-    .main{
+    main{
         grid-template-columns: repeat(5,1fr);
     }
-    .body{
+    body{
         grid-template-columns: repeat(5,1fr);
     }
 }

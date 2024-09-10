@@ -65,7 +65,7 @@ form {
     position: relative;
     left: 28%;
     top: 40%;
-    width: 60%;
+    width: 70%;
 }
 
 h2 {
@@ -151,6 +151,15 @@ form .form-control {
     transform: translate(-50%, -50%);
     width: 80%;
     height:auto;
+}
+form ::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1em;
+}
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
 }
 
 button:hover {
@@ -279,6 +288,10 @@ button:hover span{
     margin-bottom: 5px;
     margin-left: 10%;
 }
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
 
 
 
@@ -306,6 +319,15 @@ button:hover span{
     .container {
       width: 90%;
       margin: 0 auto;
+    }
+    label {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.8em;
+    }
+    form ::placeholder{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 0.8em;
     }
 }
 /* TABLETS */

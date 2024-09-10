@@ -27,42 +27,39 @@ body {
     background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
     background-size:100%;
 }
-.titu
+
 
 .grid-clases-container {
     border-radius: 10px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 4fr);
     grid-template-rows: 1, 1fr;
     gap:30px;
     justify-items: center;
     align-items: center;
 
 }
-.grid-clases-container h2{
+  main h3{
     font-family: Poppins;
     padding-left: 10px;
     color: rgb(228, 215, 240);
     background-color: rgb(141, 59, 230);
 }
 .grid-class-item {
-    border-radius:10px;
-    padding-left: 60px;
 
+    padding-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-
     background-color: rgba(211, 199, 211, 0.3) ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
-
     margin:10px;
-
-
+    border-radius: 15px;
+    
 }
 .grid-class-item img{
     padding-right:20px;
     padding-left: 20px;
-    border-radius: 25px;
+
 
 }
 
@@ -87,11 +84,33 @@ body {
     body {
       font-size: 14px;
     }
-    .container {
+    .grid-clases-container{
       width: 90%;
       margin: 0 auto;
+      grid-template-columns:repeat(1,1fr);
+      gap:10px;
+      justify-items: center;
+      align-items: center;
+  
+     
+    }
+    .grid-class-item {
+        display: grid;
+        gap: 10px;
+        text-align: center;
+
+    }
+    .grid-class-item img{
+        margin-right:auto;
+        margin-left: auto;
+        border-radius: 20px;
+        text-align: center;
     }
 }
+
+    .titulo h2{
+        font-size: 30px;
+    }
 /* TABLETS */
 @media screen and (min-width: 641px) and (max-width: 1280px) {
     .main{
