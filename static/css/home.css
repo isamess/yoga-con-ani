@@ -204,12 +204,9 @@ main a{
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(100px, auto);
 }
-/* .grid-audio-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-  } */
 
-  .image-grid {
+
+.image-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual ancho */
     gap: 10px; /* Espacio entre imágenes */
@@ -245,19 +242,19 @@ main a{
 }
 
 /* Whatsapp */
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:85px;
-	left:25px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 85px;
+    left: 25px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 .float:hover {
 	text-decoration: none;
@@ -310,7 +307,7 @@ main a{
     .image-grid img {
         width: 120px; /* Que las imágenes ocupen todo el ancho de la celda */
         height: 150px; /* Que se ajusten la altura automáticamente */
-      }
+    }
 
 }
 /* TABLETS */

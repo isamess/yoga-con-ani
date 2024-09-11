@@ -79,7 +79,6 @@ body {
     margin-right: 15px;
 }
 .grid-audio-item {
-   
     padding: 20px;
     margin: 10px;
     border-color: rgb(18, 19, 19);
@@ -129,31 +128,37 @@ body {
     }
 }
 @media (max-width: 767px) {
+
     /* Estilos para pantallas de hasta 767px */
     body {
-      font-size: 10px;
+        font-size: 10px;
     }
+
     .description-container {
-      width: 90%;
-      margin: 0 auto;
+        width: 90%;
+        margin: 0 auto;
     }
-    .description-container p{
+
+    .description-container p {
         font-size: smaller;
     }
-    .grid-audio-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .grid-audio-container {
+        grid-template-columns: repeat(1, 1fr);
     }
+
     .citas {
         font-size: 12px;
         text-align: end;
         padding-right: 10px;
-        padding-top:10px;
+        padding-top: 10px;
         padding-bottom: 10px;
     }
+
     .title {
         display: grid;
-       text-align: center;
-       font-size:large;
+        text-align: center;
+        font-size: large;
     }
 }
 /* TABLETS */
