@@ -24,8 +24,19 @@
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
+    background-color:rgb(183, 125, 237);
+
     background-size:100%;
+}
+.clases-main {
+    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
+
+}
+main h3{
+    font-family: Poppins;
+    padding-left: 10px;
+    color: rgb(228, 215, 240);
+    background-color: rgb(141, 59, 230);
 }
 
 
@@ -33,18 +44,13 @@ body {
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(1, 4fr);
-    grid-template-rows: 1, 1fr;
+    /* grid-template-rows: 1, 1fr; */
     gap:30px;
     justify-items: center;
     align-items: center;
 
 }
-  main h3{
-    font-family: Poppins;
-    padding-left: 10px;
-    color: rgb(228, 215, 240);
-    background-color: rgb(141, 59, 230);
-}
+
 .grid-class-item {
 
     padding-left: 10px;
@@ -59,8 +65,8 @@ body {
 .grid-class-item img{
     padding-right:20px;
     padding-left: 20px;
-
-
+    width:100% ;
+    height: auto;
 }
 
 /* @media queries */

@@ -26,9 +26,11 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     width:100%;
+    background-color: rgb(183, 125, 237);
+ 
 
 }
-main {
+.contact-main {
     width: 100%;
     background-image: url(../img/SiluetaMujerMeditando_2.jpeg);
     background-size:contain;

@@ -23,10 +23,13 @@
 
 body {
     width: 100%;
-    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
+    background-color: blueviolet;
     background-size:100%;
-
 }
+.about-main {
+    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
+}
+
 nav {
     width:100%;
 }
