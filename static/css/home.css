@@ -221,6 +221,12 @@ main a{
     margin-left: 5px;
     margin-right: 5px;
   }
+  .grid-books-container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(241, 214, 254);
+    margin-left:5px; -webkit-text-stroke: 0.5px rgb(10, 9, 5); 
+    font-size: 25px; font-weight: bolder; text-shadow: #edede5;
+  }
   
   .image-grid img {
     width: 200px; /* Que las imágenes ocupen todo el ancho de la celda */
@@ -269,9 +275,7 @@ main a{
 /* @media queries */
 /* CELULARES */
 @media screen and (max-width: 100%) {
-    .logo{
-        display: none;
-    }
+   
     .main{
         grid-template-columns: repeat(1,1fr);
     }
@@ -308,7 +312,28 @@ main a{
         width: 120px; /* Que las imágenes ocupen todo el ancho de la celda */
         height: 150px; /* Que se ajusten la altura automáticamente */
     }
+    .grid-books-container h1 {
+        font-size: 18px;
 
+    }
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        top:250px;
+        left: 25px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+
+}
+.biblio-main {
+    background-image: url(../img/lotus-flowers-floating-on-a-calm-pond.jpg);
 }
 /* TABLETS */
 @media screen and (min-width: 641px) and (max-width: 1280px) {
@@ -331,7 +356,7 @@ main a{
     }
     /* Otros estilos específicos para tablets */
   }
-
+ 
   @media (min-width: 768px) and (orientation: landscape) {
     /* Estilos para tablets en modo horizontal */
   }

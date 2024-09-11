@@ -70,19 +70,19 @@ form {
     width: 70%;
 }
 
-h2 {
+.contactTitle h2 {
     text-align: center;
     color: rgb(241, 214, 254);
-    font-size: 30px;
-    font-family:  Playfair Display, serif; 
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     -webkit-text-stroke: 0.5px rgb(10, 9, 5); 
-    font-style: italic;
     text-shadow: #edede5; 
+    font-weight: bolder;
 
 
 }
 .contactTitle{
-    background-color: rgb(137, 4, 233,0.5 );
+    background-color: rgb(137, 4, 233, 0.2 );
     width: 100%;
     margin-right:0px;
     margin-left: 0px ;
@@ -329,7 +329,10 @@ label {
     form ::placeholder{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: italic;
-        font-size: 0.8em;
+        font-size: 1 em;
+    }
+    .contactTitle h2 {
+        font-size: 25px;
     }
 }
 /* TABLETS */
