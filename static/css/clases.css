@@ -63,10 +63,11 @@ main h3{
     
 }
 .grid-class-item img{
-    padding-right:20px;
-    padding-left: 20px;
-    width:100% ;
+    padding-right:10px;
+    padding-left: 10px;
+    width:fit-content;
     height: auto;
+    border-radius: 8px;
 }
 
 /* @media queries */
