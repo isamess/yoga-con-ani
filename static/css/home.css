@@ -117,10 +117,10 @@ a{
     display: none;
     position: absolute;
     text-align: center;
-    width: 80%;
+    width: 100%;
     min-width: 30px;
     overflow: auto;
-    background-color: rgba(91, 32, 133, 0.5);
+    background-color: rgba(5, 0, 8);
     border-radius: 5px;
     box-shadow: 0px 8px 16px 0px rgba(241, 232, 232, 0.2);
     padding: 10px 0px 10px 0px;
@@ -133,7 +133,7 @@ a{
     text-decoration: none;
     margin: 5px;
     font-family: "Poppins";
-    font-size: 11px;
+    font-size: 14px;
 
   }
 

@@ -41,34 +41,29 @@ main h3{
 
 
 .grid-clases-container {
-    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(1, 4fr);
-    /* grid-template-rows: 1, 1fr; */
-    gap:30px;
-    justify-items: center;
+    border-radius: 10px;
+    gap:10px;
+    justify-content: center;
     align-items: center;
-
-}
-
-.grid-class-item {
-
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin: 10px auto;
     background-color: rgba(211, 199, 211, 0.3) ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    width:fit-content;
+    padding: 10px;
+    max-width: 80%;
+
+
+}
+.grid-clases-container img{
+    width: 100%;
+    box-sizing: border-box;
     margin:10px;
     border-radius: 15px;
-    
 }
-.grid-class-item img{
-    padding-right:10px;
-    padding-left: 10px;
-    width:fit-content;
-    height: auto;
-    border-radius: 8px;
-}
+
+
 
 /* @media queries */
 /* CELULARES */
